@@ -26,10 +26,6 @@ Call UserForm_Initialize
 
 End Sub
 
-Private Sub Label12_Click()
-
-End Sub
-
 Private Sub UserForm_Initialize()
 
 'Initialize text boxes
@@ -139,8 +135,6 @@ Else
     yyyy1 = 0
 End If
 
-
-
 'Improvement 2
 If Len(Me.improvement2f) > 0 Then
     improvement2 = improvement2f.Value
@@ -151,8 +145,6 @@ Else
     mm2 = 0
     yyyy2 = 0
 End If
-
-
 
 'Improvement 3
 If Len(Me.improvement3f) > 0 Then
@@ -177,8 +169,6 @@ Else
     mm4 = 0
     yyyy4 = 0
 End If
-
-
 
 'Improvement 5
 If Len(Me.improvement5f) > 0 Then
